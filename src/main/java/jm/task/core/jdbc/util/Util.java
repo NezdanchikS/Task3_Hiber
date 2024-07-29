@@ -21,6 +21,7 @@ public class Util {
     private static SessionFactory sessionFactory;
 
     // Hibernate
+
     public static SessionFactory getSessionFactory() {
         sessionFactory = null;
         try {
